@@ -14,7 +14,7 @@ $show95th = true;
 $ntop = 20;
 $showv6 = true;
 $showtitledetail = true;
-$hidelinkusagename  = true;	  # $showtitledetail will need to be true to allow this
+$hidelinkusagename = true;	  # $showtitledetail will need to be true to allow this
 
 $whois = "/usr/bin/whois";
 $assetpath = "asset";
@@ -27,6 +27,7 @@ $customlinks = array(
 	'robtex' => 'http://www.robtex.com/as/as%as%.html',
 	'HE' => 'http://bgp.he.net/AS%as%',
 	'RIPEstat' => 'https://stat.ripe.net/AS%as%#tabId=at-a-glance',
+	'RIPE-BGPplay' => 'https://stat.ripe.net/widget/bgplay#w.resource=as%as%',
 	'euro-IX' => 'https://www.euro-ix.net/tools/asn_search?query=%as%'
 );
 
